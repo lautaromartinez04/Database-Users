@@ -10,6 +10,9 @@ abrir terminal command prompt
 
     pip install -r requiremets.txt (instalas dependencias)
 
+    crear archivo .env con 
+        DATABASE_URL=mysql+mysqlconnector://<root/user>:<password>@localhost:3306/<nameDB>
+
     modificar el .env <root/user>, <password>, <nameDB>
 
     uvicorn main:app --reload (ejecuta la api)
